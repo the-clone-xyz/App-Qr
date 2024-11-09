@@ -1,0 +1,43 @@
+body,
+html {
+    color: #fff;
+    height: 100%;
+    background: linear-gradient(220deg, #21a4d3 10%, #7e2be9 90%);
+}
+
+.btn-submit {
+    color: #fff;
+    display: block;
+    margin: 1rem 0rem;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: transparent;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-oswald {
+    font-family: Oswald, Sans-Serif;
+}
+
+#text {
+    height: 12em;
+}
+.notData {
+}
+
+@media (min-width: 600px) {
+    #text {
+        height: 5em;
+    }
+    body {
+        color: #fff;
+        height: auto;
+        background: linear-gradient(220deg, #21a4d3 10%, #7e2be9 90%);
+    }
+}
